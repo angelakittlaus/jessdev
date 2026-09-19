@@ -12,13 +12,11 @@
 
     <title>JessDEV.</title>
 
-
     <style>
 
         * {
             box-sizing: border-box;
         }
-
 
         body {
 
@@ -59,9 +57,6 @@
             padding: 30px 0;
         }
 
-
-        /* LUZ AMBIENTE */
-
         body::before {
 
             content: "";
@@ -86,9 +81,6 @@
             z-index: 0;
         }
 
-
-        /* CAVEIRINHAS */
-
         .caveiras {
 
             position: fixed;
@@ -101,7 +93,6 @@
 
             z-index: 1;
         }
-
 
         .caveiras span {
 
@@ -117,7 +108,6 @@
                 0 0 8px rgba(167, 123, 178, 0.15);
         }
 
-
         @keyframes cair {
 
             from {
@@ -129,18 +119,15 @@
                 opacity: 0;
             }
 
-
             10% {
 
                 opacity: 1;
             }
 
-
             90% {
 
                 opacity: 0.5;
             }
-
 
             to {
 
@@ -152,9 +139,6 @@
             }
 
         }
-
-
-        /* CARD */
 
         .card {
 
@@ -191,9 +175,6 @@
             z-index: 2;
         }
 
-
-        /* LINHA */
-
         .linha {
 
             width: 35px;
@@ -206,9 +187,6 @@
 
             opacity: 0.8;
         }
-
-
-        /* TÍTULO */
 
         .titulo {
 
@@ -223,7 +201,6 @@
             color:
                 #f1edf2;
         }
-
 
         .subtitulo {
 
@@ -240,9 +217,6 @@
 
             text-transform: uppercase;
         }
-
-
-        /* FOTO */
 
         .gif-container {
 
@@ -266,7 +240,6 @@
             position: relative;
         }
 
-
         .gif-container::after {
 
             content: "";
@@ -286,7 +259,6 @@
             pointer-events: none;
         }
 
-
         .gif-container img {
 
             width: 100%;
@@ -297,9 +269,6 @@
 
             display: block;
         }
-
-
-        /* INFORMAÇÕES */
 
         .informacoes {
 
@@ -312,7 +281,6 @@
 
             margin-bottom: 22px;
         }
-
 
         .info {
 
@@ -331,7 +299,6 @@
                 all 0.25s ease;
         }
 
-
         .info:hover {
 
             background:
@@ -343,7 +310,6 @@
             transform:
                 translateY(-2px);
         }
-
 
         .info-titulo {
 
@@ -361,7 +327,6 @@
             margin-bottom: 5px;
         }
 
-
         .info-texto {
 
             display: block;
@@ -371,9 +336,6 @@
             color:
                 #ddd7df;
         }
-
-
-        /* DRAGONBOT */
 
         .dragonbot {
 
@@ -401,7 +363,6 @@
                 rgba(167,123,178,0.15);
         }
 
-
         .dragon-icon {
 
             width: 38px;
@@ -426,12 +387,10 @@
             flex-shrink: 0;
         }
 
-
         .dragon-info {
 
             min-width: 0;
         }
-
 
         .dragon-nome {
 
@@ -443,7 +402,6 @@
             margin-bottom: 3px;
         }
 
-
         .dragon-descricao {
 
             font-size: 10px;
@@ -453,9 +411,6 @@
 
             letter-spacing: 0.3px;
         }
-
-
-        /* MÚSICA */
 
         .musica-nome {
 
@@ -469,9 +424,6 @@
             letter-spacing: 0.2px;
         }
 
-
-        /* PLAYER */
-
         audio {
 
             width: 100%;
@@ -482,9 +434,6 @@
 
             opacity: 0.85;
         }
-
-
-        /* BOTÃO */
 
         .botao {
 
@@ -512,7 +461,6 @@
                 all 0.25s ease;
         }
 
-
         .botao:hover {
 
             background:
@@ -524,9 +472,6 @@
             transform:
                 translateY(-1px);
         }
-
-
-        /* RODAPÉ */
 
         .rodape {
 
@@ -542,9 +487,6 @@
             letter-spacing: 1.5px;
         }
 
-
-        /* CELULAR */
-
         @media (max-width: 480px) {
 
             body {
@@ -553,25 +495,21 @@
                     20px 0;
             }
 
-
             .card {
 
                 padding: 22px;
 
             }
 
-
             .gif-container {
 
                 height: 200px;
             }
 
-
             .titulo {
 
                 font-size: 23px;
             }
-
 
             .informacoes {
 
@@ -581,25 +519,17 @@
 
         }
 
-
     </style>
 
 </head>
 
-
 <body>
-
-
-    <!-- CAVEIRINHAS -->
 
     <div class="caveiras"></div>
 
-
     <main class="card">
 
-
         <div class="linha"></div>
-
 
         <h1 class="titulo">
 
@@ -607,15 +537,11 @@
 
         </h1>
 
-
         <div class="subtitulo">
 
             FEAR THE NAME. REMEMBER THE FACE.
 
         </div>
-
-
-        <!-- FOTO -->
 
         <div class="gif-container">
 
@@ -626,11 +552,7 @@
 
         </div>
 
-
-        <!-- INFORMAÇÕES -->
-
         <div class="informacoes">
-
 
             <div class="info">
 
@@ -644,7 +566,6 @@
 
             </div>
 
-
             <div class="info">
 
                 <span class="info-titulo">
@@ -656,7 +577,6 @@
                 </span>
 
             </div>
-
 
             <div class="info">
 
@@ -670,7 +590,6 @@
 
             </div>
 
-
             <div class="info">
 
                 <span class="info-titulo">
@@ -683,21 +602,15 @@
 
             </div>
 
-
         </div>
 
-
-        <!-- DRAGONBOT -->
-
         <div class="dragonbot">
-
 
             <div class="dragon-icon">
 
                 🐉
 
             </div>
-
 
             <div class="dragon-info">
 
@@ -707,7 +620,6 @@
 
                 </div>
 
-
                 <div class="dragon-descricao">
 
                     WhatsApp Bot · Desenvolvimento independente
@@ -716,20 +628,13 @@
 
             </div>
 
-
         </div>
-
-
-        <!-- MÚSICA -->
 
         <div class="musica-nome">
 
             A Touch Of Class - Around the World (La La La La La)
 
         </div>
-
-
-        <!-- PLAYER -->
 
         <audio
             id="musica"
@@ -745,9 +650,6 @@
 
         </audio>
 
-
-        <!-- BOTÃO -->
-
         <button
             class="botao"
             onclick="tocarMusica()"
@@ -757,34 +659,18 @@
 
         </button>
 
-
         <div class="rodape">
 
             © JESS · ALL RIGHTS RESERVED
 
         </div>
 
-
     </main>
-
 
     <script>
 
-
-        /* =========================================
-           PLAYER
-        ========================================= */
-
         const musica =
             document.getElementById("musica");
-
-
-        /*
-         * Tenta iniciar automaticamente.
-         *
-         * Alguns navegadores permitem.
-         * Outros bloqueiam áudio com som.
-         */
 
         window.addEventListener("load", () => {
 
@@ -800,50 +686,6 @@
 
         });
 
-
-        /*
-         * Se o autoplay for bloqueado,
-         * o primeiro clique/toque em qualquer
-         * lugar da página inicia a música.
-         */
-
-        function iniciarMusicaPorInteracao() {
-
-            if (musica.paused) {
-
-                musica.play().catch(() => {});
-
-            }
-
-            document.removeEventListener(
-                "click",
-                iniciarMusicaPorInteracao
-            );
-
-            document.removeEventListener(
-                "touchstart",
-                iniciarMusicaPorInteracao
-            );
-
-        }
-
-
-        document.addEventListener(
-            "click",
-            iniciarMusicaPorInteracao
-        );
-
-
-        document.addEventListener(
-            "touchstart",
-            iniciarMusicaPorInteracao
-        );
-
-
-        /*
-         * BOTÃO MANUAL
-         */
-
         function tocarMusica() {
 
             if (musica.paused) {
@@ -858,46 +700,32 @@
 
         }
 
-
-        /* =========================================
-           CAVEIRINHAS
-        ========================================= */
-
         const caveiras =
             document.querySelector(".caveiras");
-
 
         function criarCaveira() {
 
             const caveira =
                 document.createElement("span");
 
-
-            caveira.innerHTML = "☠";
-
+            caveira.innerHTML = "💵";
 
             caveira.style.left =
                 Math.random() * 100 + "vw";
 
-
             caveira.style.fontSize =
                 (10 + Math.random() * 14) + "px";
-
 
             caveira.style.color =
                 "rgba(170, 130, 180, 0.18)";
 
-
             const duracao =
                 7 + Math.random() * 8;
-
 
             caveira.style.animation =
                 `cair ${duracao}s linear forwards`;
 
-
             caveiras.appendChild(caveira);
-
 
             setTimeout(() => {
 
@@ -907,15 +735,12 @@
 
         }
 
-
         setInterval(
             criarCaveira,
             700
         );
 
-
     </script>
-
 
 </body>
 
